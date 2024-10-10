@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="src/output.css">
+  </head>
+  <body>
+    <div id="big" class="h-screen bg-[#00b4d8] flex flex-col items-center">
+      <p
+        class="mt-14 text-6xl text-white font-semibold rounded-2xl px-4 bg-[#0b8ebe]"
+      >
+        TIC TAC TOE
+      </p>
+      <button
+        class="hidden play text-8xl bg-[#0c95b8] text-white font-semibold px-3 mt-48 rounded-2xl pb-2"
+      >
+        PLAY
+      </button>
+      <div
+        class="boxes bg-[#48cae4] h-[25rem] w-[25rem] rounded-2xl flex mt-10 flex-wrap justify-center items-center pt-5 pb-5 gap-3"
+      >
+        <button id="b1" class="cubes shadow-slate-500 shadow-2xl"></button>
+        <button id="b2" class="cubes shadow-slate-500 shadow-2xl"></button>
+        <button id="b4" class="cubes shadow-slate-500 shadow-2xl"></button>
+        <button id="b5" class="cubes shadow-slate-500 shadow-2xl"></button>
+        <button id="b6" class="cubes shadow-slate-500 shadow-2xl"></button>
+        <button id="b7" class="cubes shadow-slate-500 shadow-2xl"></button>
+        <button id="b8" class="cubes shadow-slate-500 shadow-2xl"></button>
+        <button id="b9" class="cubes shadow-slate-500 shadow-2xl"></button>
+        <button id="b10" class="cubes shadow-slate-500 shadow-2xl"></button>
+      </div>
+      <div
+        class="message flex justify-center items-center scale-125 mt-10 my-10 text-white bg-[#0ba2d4] rounded-lg px-2 pd-1 shadow-2xl font-semibold shadow-slate-900"
+      >
+        <h1 class="mess"></h1>
+      </div>
+      <button
+        class="text-3xl reset text-white bg-[#038fbe] rounded-lg px-2 pd-1 mt-10 shadow-2xl font-semibold shadow-slate-900"
+      >
+        Reset
+      </button>
+      <button
+        class="text-3xl playAgain reset text-white bg-[#038fbe] rounded-lg px-2 pd-1 mt-10 shadow-2xl font-semibold shadow-slate-900"
+      >
+        Play Again
+      </button>
+      <div
+        class="stats text-3xl text-white bg-[#038fbe] rounded-lg px-2 pd-1 mt-10 shadow-2xl font-semibold shadow-slate-900"
+      ></div>
+    </div>
+    <script src="/script.js"></script>
+    <script src="/src/script.js"></script>
+  </body>
+</html>
